@@ -10,6 +10,8 @@ This jQuery UI widget plugin provides (imho) a better implementation of the _cov
 * Fast;
 * Small (5K, uncompressed).
 
+**See a live example** with some [music album covers](http://ruidlopes.github.com/betterflow.js/).
+
 # Setup
 
 Add jQuery and jQuery UI to your HTML, e.g.:
