@@ -49,6 +49,12 @@ Afterwards, make the wrapper element become a `betterflow` widget, e.g.:
 
 > **Note:** do not forget to properly set the dimension of your HTML elements.
 
+## Dynamic content
+
+If, for any reason, you manipulate the content of the wrapper element (e.g., adding and/or deleting children), you need to _destroy_ and _recreate_ the widget. Example:
+
+	$("#example").betterflow("destroy").betterflow();
+
 ## Events
 
 Interacting with a `betterflow` widget is made through jQuery's event publishing and subscription.
